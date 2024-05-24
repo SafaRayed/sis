@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="coffe typo.jpg" alt="Coffee Shop Logo"></a>
+    </header>
+    <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#Menu">Menu</a>
+        <a href="#Order">Order</a>
+        <a href="#About Us">About Us</a>
+    </nav>
+    <section id="Home">
+        <h1>Discover The Art Of Perfect Coffee</h1>
+        <p>Coffee is the best thing to douse the sunrise with.</p>
+        <div id="Home">
+            <h1>fresh coffe in the morning</h1>
+            <p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea farhan.</p>
+        </div>
+    </section>
+    <link rel="stylesheet" href="Menu.css">
+    <section id="Menu">
+<h1 class="Head">our <span>menu</span></h1>
+<div class="menu-items">
+    <div class="box">
+        <img src="espressoo.jpg" alt="">
+        <h3>Tasty and Healty</h3>
+        <h1 class="price">$10.0 </h1>
+        <a href="" class="btn">add to cart</a>
+    </div>
+</div>
+        <div class="milkshake">
+            <div class="box">
+                <img src="milkshake.jpg" alt="">
+                <h3>Tasty and Healty</h3>
+                <h1 class="price">$15.0 </h1>
+                <a href="" class="btn">add to cart</a>
+            </div>
+        </div>
+ <div class="latte">
+    <div class="box">
+        <img src="oat-milk-latte4-500x500.jpg" alt="">
+        <h3>Tasty and Healty</h3>
+        <h1 class="price">$30.0 </h1>
+        <a href="" class="btn">add to cart</a>
+    </div>
+ </div>
+
+
+    </section>
+    <section id="Order">
+        <ol id="infoList">
+            <img src="order boy.jpg" alt="" srcset="">
+            <li><input type="text" id="name" placeholder="Name"></li>
+            <br><br>
+            <li>
+                <select id="address">
+                    <option value="Address 1">Beirut</option>
+                    <option value="Address 2">Zahle</option>
+                    <option value="Address 3">Shtura </option>
+                    <option value="Address 3">Baalbeck </option>
+                    <option value="Address 3">Saida </option>
+                </select>
+                <br><br>
+            </li>
+
+            <li><input type="tel" id="phoneNumber" placeholder="Phone Number"></li>
+            <br><br>
+        </ol>
+    
+        <button onclick="displayInfo(event)">Order Now</button>
+        <div id="displayInfo"></div>
+        <h1 for="menu">Select a menu option:</h1>
+        <br>
+        <select id="menu" onchange="changecolor()" >
+          <option value="option1">Espresso</option>
+          <option value="option2"> milkshake</option>
+          <option value="option3">latte</option>
+        </select>
+        <h1 id="colorfulText">Message about your order option</h1>
+        <h1 id="colorMessage">Message about the color you chose</h1>
+
+      <br><br>
+    
+    
+        <div id="getInfo"></div>
+    </section>
+
+
+
+    <section id="About Us">
+        <h1 class="Head"> <span>about </span>us</h1>
+<div class="row">
+    <div class="image">
+        <img src="5ffefffe18be7645fee8477c64aa4b79.jpg" alt="">
+    </div>
+    <div class="content">
+        <h3> what makes our coffee special?</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore delectus voluptates, veniam facilis fuga mollitia numquam quos eos maiores voluptatum eveniet aspernatur beatae neque dolores enim consectetur dicta dignissimos laborum.</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores quidem laboriosam, veniam accusamus laborum magnam aut tempora vitae repellendus dolores similique excepturi cum labore accusantium temporibus et optio delectus. Commodi?</p></div>
+<a href="#" class="btn">learn more </a>
+</div>
+       
+        <p>Learn more about our coffee shop.</p>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 Coffee Shop</p>
+    </footer>
+    
+
+    
+    <div id="displayInfo"></div>
+
+    <script src="index.js" >
+           </script>
+</body>
+</html>
